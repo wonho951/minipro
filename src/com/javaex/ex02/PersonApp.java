@@ -44,17 +44,14 @@ public class PersonApp {
 		}
 
 		//시작
-		System.out.println("*********************************");
-		System.out.println("*	전화번호 관리 프로그램		*");
-		System.out.println("*********************************");
+		//프로그램 시작 문구 출력
+		Person.mainView();
 
 		
 		while (true) {
+			//메뉴리스트 출력
+			Person.Menu();
 
-			System.out.println("");
-			System.out.println("1.리스트" + "	" + "2.등록" + "	" + "3.삭제" + "	" + "4.검색" + "	" + "5.종료");
-			System.out.println("-----------------------------");
-			System.out.print(">메뉴선택: ");
 			int select = sc.nextInt();
 
 			if (select == 5) {
