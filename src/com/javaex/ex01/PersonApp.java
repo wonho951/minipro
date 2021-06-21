@@ -60,6 +60,11 @@ public class PersonApp {
 					System.out.println(i+1 + ".	" + pList.get(i).getName()+ "	" + pList.get(i).getHp()+ "	" + pList.get(i).getCompany());
 				}
 				break;
+			case 2:
+			case 3:
+			case 4:
+				
+				
 			}
 			
 			sc.close();	
