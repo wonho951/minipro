@@ -50,8 +50,8 @@ public class Person {
 	
 	//method
 	
-	public void draw() {
-		System.out.println (name + "   " + hp + "     "+ company);
+	public String draw() {
+		return name + "," + hp + ","+ company;
 		
 	}
 	@Override
